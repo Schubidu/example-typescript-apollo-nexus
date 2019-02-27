@@ -1,0 +1,33 @@
+{
+  "name": "example-typescript-apollo-nexus",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://example-typescript-apollo-nexus.now.sh",
+  "scripts": {
+    "dev": "ts-node-dev --no-notify --respawn src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Schubidu/example-typescript-apollo-nexus.git"
+  },
+  "author": {
+    "name": "Stefan Schult",
+    "url": "https://schultstefan.de"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.0.7",
+    "@types/node-fetch": "^2.1.6",
+    "ts-node": "^8.0.2",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "apollo-server": "2.4.8",
+    "core-js": "3.0.0-beta.3",
+    "graphql": "14.1.1",
+    "nexus": "^0.10.0",
+    "node-fetch": "^2.3.0"
+  }
+}

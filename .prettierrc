@@ -1,0 +1,24 @@
+{
+  "printWidth": 120,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "parser": "typescript",
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": { "parser": "json" }
+    },
+    {
+      "files": "*.md",
+      "options": { "parser": "markdown" }
+    },
+    {
+      "files": "*.graphql",
+      "options": { "parser": "graphql" }
+    },
+    {
+      "files": ".prettierrc",
+      "options": { "parser": "json" }
+    }
+  ]
+}
