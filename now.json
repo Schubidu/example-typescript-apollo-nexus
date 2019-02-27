@@ -2,14 +2,12 @@
   "version": 2,
   "builds": [
     {
-      "src": "./src/**/*.ts",
-      "use": "@now/node@canary"
+      "src": "index.js",
+      "use": "@now/node-server@canary"
     }
   ],
   "env": {
     "IS_NOW": "true"
   },
-  "routes": [
-    { "src": "/(.*)", "dest": "/src/index.ts" }
-  ]
+  "routes": [{ "src": "/.*", "dest": "/src/index.ts" }]
 }
