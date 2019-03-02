@@ -31,10 +31,16 @@ export interface NexusGenAllTypes extends NexusGenRootTypes {
 export interface NexusGenFieldTypes {
   Query: { // field return type
     hello: string | null; // String
+    sayHello: string; // String!
   }
 }
 
 export interface NexusGenArgTypes {
+  Query: {
+    sayHello: { // args
+      name: string; // String!
+    }
+  }
 }
 
 export interface NexusGenAbstractResolveReturnTypes {
