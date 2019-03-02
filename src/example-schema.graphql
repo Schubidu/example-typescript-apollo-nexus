@@ -4,4 +4,5 @@
 
 type Query {
   hello: String
+  sayHello(name: String!): String!
 }
