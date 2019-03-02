@@ -22,8 +22,8 @@ const schema = makeSchema({
 
 const server = new ApolloServer({
   schema,
-  introspection: true,
-  playground: true,
+  introspection: !process.env.IS_NOW,
+  playground: !process.env.IS_NOW,
 });
 
 server.listen().then(({ url }) => {
