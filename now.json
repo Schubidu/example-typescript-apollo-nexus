@@ -1,6 +1,8 @@
 {
+  "name": "example-typescript-apollo-nexus",
   "version": 2,
   "regions": ["bru"],
+  "alias": ["example-typescript-apollo-nexus.now.sh"],
   "builds": [
     {
       "src": "./src/index.ts",
