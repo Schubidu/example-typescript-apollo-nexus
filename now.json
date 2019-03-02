@@ -3,7 +3,7 @@
   "regions": ["bru"],
   "builds": [
     {
-      "src": "index.js",
+      "src": "./src/index.ts",
       "use": "@now/node-server@canary"
     }
   ],
