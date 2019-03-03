@@ -10,7 +10,8 @@
     }
   ],
   "env": {
-    "IS_NOW": "true"
+    "IS_NOW": "true",
+    "NODE_ENV": "production"
   },
   "routes": [{ "src": "/.*", "dest": "/src/index.ts" }]
 }

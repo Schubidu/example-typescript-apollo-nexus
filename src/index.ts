@@ -9,15 +9,6 @@ const schema = makeSchema({
     schema: path.join(__dirname, '/example-schema.graphql'),
     typegen: path.join(__dirname, '/example-typegen.ts'),
   },
-  /*typegenAutoConfig: {
-        sources: [
-            {
-                source: path.join(__dirname, "./typeDefs.ts"),
-                alias: "t",
-            },
-        ],
-        contextType: "t.Context",
-    },*/
 });
 
 const server = new ApolloServer({
